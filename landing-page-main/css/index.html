@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxus - Plataforma Digital | ALOT</title>
+    <meta name="description" content="Transforma la merma de inventario en oportunidades de alto impacto social con trazabilidad absoluta">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon"></div>
+                <span class="logo-text">Fluxus</span>
+                <span class="logo-subtext">by ALOT</span>
+            </div>
+            <button class="btn btn-primary" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge">Plataforma digital</div>
+                <h1 class="hero-title">
+                    Transforma la merma en
+                    <span class="gradient-text">oportunidades sociales</span>
+                </h1>
+                <p class="hero-description">
+                    Optimiza la gestión operativa de tu inventario y convierte activos en desuso en alto impacto social con trazabilidad absoluta.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-large" onclick="handleCTAClick('hero-start')">
+                        Comenzar Ahora
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary btn-large" onclick="handleCTAClick('hero-demo')">Ver Demo</button>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <img src="https://images.unsplash.com/photo-1724709162875-fe100dd0e04b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
+                     alt="Warehouse logistics"
+                     class="image-rounded">
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-white">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">El Problema que Resolvemos</h2>
+                <p class="section-subtitle">
+                    El desperdicio de productos en el retail representa externalidades negativas a nivel económico, social y ambiental
+                </p>
+            </div>
+
+            <div class="grid grid-4">
+                <div class="card card-problem problem-red">
+                    <div class="card-icon icon-red">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Desperdicio Masivo</h3>
+                    <p class="card-text">
+                        Productos aptos para consumo terminan siendo desechados por falta de herramientas especializadas
+                    </p>
+                </div>
+
+                <div class="card card-problem problem-orange">
+                    <div class="card-icon icon-orange">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 21h18M5 21V7l8-4v18M19 21V10l-6-3"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Carga Administrativa</h3>
+                    <p class="card-text">
+                        Las empresas perciben la logística de donaciones como compleja y costosa frente al descarte directo
+                    </p>
+                </div>
+
+                <div class="card card-problem problem-amber">
+                    <div class="card-icon icon-amber">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Instituciones Afectadas</h3>
+                    <p class="card-text">
+                        ONGs sufren por ofertas inconsistentes y carecen de canales formales con el sector privado
+                    </p>
+                </div>
+
+                <div class="card card-problem problem-rose">
+                    <div class="card-icon icon-rose">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 20V10M12 20V4M6 20v-6"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Falta de Trazabilidad</h3>
+                    <p class="card-text">
+                        Sin registro ni seguimiento del ciclo de vida de productos retirados del inventario
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-gray">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Beneficios Clave</h2>
+                <p class="section-subtitle">Motivos comerciales y sociales para adoptar Fluxus</p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="card card-benefit">
+                    <div class="card-icon-large icon-emerald">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title-large">Reducción de Costos</h3>
+                    <p class="card-text">
+                        Optimiza la estructura de costos logísticos al disminuir los gastos de tercerización de transporte para la disposición de residuos sólidos
+                    </p>
+                </div>
+
+                <div class="card card-benefit">
+                    <div class="card-icon-large icon-blue">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title-large">Beneficios Fiscales</h3>
+                    <p class="card-text">
+                        Maximiza la recuperación de la inversión garantizando deducciones fiscales bajo el marco de la Ley N° 30498
+                    </p>
+                </div>
+
+                <div class="card card-benefit">
+                    <div class="card-icon-large icon-purple">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 20V10M12 20V4M6 20v-6"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title-large">Reputación Corporativa</h3>
+                    <p class="card-text">
+                        Fortalece el valor de la marca generando métricas y reportes de sostenibilidad que son auditables
+                    </p>
+                </div>
+
+                <div class="card card-benefit">
+                    <div class="card-icon-large icon-emerald">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title-large">Eficiencia Operativa</h3>
+                    <p class="card-text">
+                        Digitaliza procesos manuales, eliminando retrabajos administrativos y errores de digitación
+                    </p>
+                </div>
+
+                <div class="card card-benefit">
+                    <div class="card-icon-large icon-rose">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title-large">Confianza para Beneficiarios</h3>
+                    <p class="card-text">
+                        Representa un canal digital formal y previsible para que las ONGs reciban donaciones oportunamente
+                    </p>
+                </div>
+
+                <div class="card card-benefit">
+                    <div class="card-icon-large icon-indigo">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title-large">Trazabilidad Total</h3>
+                    <p class="card-text">
+                        Registro histórico de cada movimiento para garantizar la cadena de custodia hasta el destino final
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-white">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Características Principales</h2>
+                <p class="section-subtitle">Herramientas concretas que ofrece el sistema</p>
+            </div>
+
+            <div class="grid grid-2">
+                <div class="feature-card">
+                    <div class="feature-icon icon-emerald">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="feature-title">Registro Ágil</h3>
+                        <p class="feature-text">Formularios parametrizados para el ingreso rápido de productos retirados del inventario</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-blue">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="feature-title">Clasificación de Idoneidad</h3>
+                        <p class="feature-text">Sistema para determinar rápidamente si un producto es "Donable" o "No donable"</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-purple">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="feature-title">Trazabilidad Total</h3>
+                        <p class="feature-text">Registro histórico de cada movimiento para garantizar la cadena de custodia hasta el destino final</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-teal">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="feature-title">Gestión de Instituciones</h3>
+                        <p class="feature-text">Base de datos centralizada de ONGs, albergues y comedores validados</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-rose">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="feature-title">Notificaciones y Reportes</h3>
+                        <p class="feature-text">Alertas automáticas para agilizar recojos y generación de certificados de donación verificables</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-indigo">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="feature-title">Reportes de Sostenibilidad</h3>
+                        <p class="feature-text">Métricas auditables que fortalecen la reputación corporativa y el impacto social</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-white">¿A quiénes ayudamos?</h2>
+                <p class="section-subtitle text-light">Construido para conectar dos sectores clave</p>
+            </div>
+
+            <div class="grid grid-2">
+                <div class="target-card target-emerald">
+                    <div class="target-icon">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="target-title">Sector Retail</h3>
+                    <p class="target-description">Dirigido a empresas medianas y grandes del rubro retail, como supermercados y tiendas, con alto volumen de productos perecibles.</p>
+                    <ul class="target-list">
+                        <li>
+                            <svg class="icon icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Supermercados y cadenas de distribución
+                        </li>
+                        <li>
+                            <svg class="icon icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Tiendas departamentales
+                        </li>
+                        <li>
+                            <svg class="icon icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Centros de distribución
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="target-card target-blue">
+                    <div class="target-icon">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="target-title">Sector Social</h3>
+                    <p class="target-description">Diseñado para apoyar a instituciones sociales beneficiarias sin fines de lucro que necesitan recursos consistentes.</p>
+                    <ul class="target-list">
+                        <li>
+                            <svg class="icon icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            ONGs y organizaciones benéficas
+                        </li>
+                        <li>
+                            <svg class="icon icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Albergues y comedores populares
+                        </li>
+                        <li>
+                            <svg class="icon icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Instituciones educativas
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-white">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre ALOT</h2>
+                <p class="section-subtitle">Nuestra razón de ser</p>
+            </div>
+
+            <div class="grid grid-2">
+                <div class="about-card about-emerald">
+                    <div class="about-icon icon-emerald">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="about-title">Nuestra Misión</h3>
+                    <p class="about-text">Transformar la industria del retail con tecnología que optimice inventarios, reduzca el desperdicio y conecte excedentes con la comunidad.</p>
+                </div>
+
+                <div class="about-card about-blue">
+                    <div class="about-icon icon-blue">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <h3 class="about-title">Nuestra Visión</h3>
+                    <p class="about-text">Convertirnos en el ecosistema tecnológico líder a nivel global para la logística inversa y la economía circular en el retail.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container cta-content">
+            <h2 class="cta-title">Comienza a transformar tu operación hoy</h2>
+            <p class="cta-description">
+                Únete a las empresas que ya están reduciendo costos, maximizando beneficios fiscales y generando impacto social positivo.
+            </p>
+            <div class="cta-buttons">
+                <button class="btn btn-white btn-large" onclick="handleCTAClick('cta-demo')">Solicitar Demo Gratuita</button>
+                <button class="btn btn-outline btn-large" onclick="handleCTAClick('cta-sales')">Contactar Ventas</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="logo-icon"></div>
+                        <span class="logo-text">Fluxus</span>
+                    </div>
+                    <p class="footer-description">
+                        Transformando la industria del retail con tecnología sostenible.
+                    </p>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Producto</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Características</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">Casos de Éxito</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Empresa</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Sobre ALOT</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 ALOT. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
