@@ -256,6 +256,13 @@ body {
     height: auto;
 }
 
+.image-rounded {
+    border-radius: 1rem;
+    box-shadow: var(--shadow-2xl);
+    width: 100%;
+    height: auto;
+}
+
 
 .section {
     padding: var(--spacing-20) var(--spacing-6);
@@ -569,6 +576,72 @@ body {
 }
 
 
+.split-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-12);
+    align-items: center;
+}
+
+.split-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+}
+
+.split-text {
+    font-size: 1.0625rem;
+    color: var(--gray-700);
+    line-height: 1.7;
+}
+
+.split-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: var(--shadow-xl);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-6);
+}
+
+.info-card {
+    display: flex;
+    gap: var(--spacing-4);
+    align-items: center;
+    padding: var(--spacing-5);
+    border-radius: 0.75rem;
+    background: white;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+}
+
+.info-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.info-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: var(--spacing-2);
+}
+
+.info-text {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+}
+
+
 .cta {
     padding: var(--spacing-20) var(--spacing-6);
     background: var(--teal-600); 
@@ -663,6 +736,11 @@ body {
     color: var(--gray-400);
 }
 
+.b{
+    font-weight: 700;
+}
+
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -676,6 +754,9 @@ body {
     .grid-2, .grid-3, .grid-4 {
         grid-template-columns: repeat(2, 1fr);
     }
+    .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .footer-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -684,6 +765,12 @@ body {
 @media (min-width: 1024px) {
     .hero-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .split-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .split-grid.reverse > .split-image {
+        order: -1;
     }
     .grid-3 {
         grid-template-columns: repeat(3, 1fr);

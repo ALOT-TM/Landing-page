@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
     
-    const cards = document.querySelectorAll('.card, .feature-card, .target-card, .about-card');
+    const cards = document.querySelectorAll('.card, .feature-card, .target-card, .about-card, .info-card, .split-image');
     cards.forEach(card => observer.observe(card));
     
     console.log('Fluxus Landing Page cargada correctamente');
