@@ -15,7 +15,12 @@
                 <span class="logo-text">Fluxus</span>
                 <span class="logo-subtext">by ALOT</span>
             </div>
-            <div class="nav-actions">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+            </button>
+            <div class="nav-menu" id="nav-menu">
                 <ul class="nav-links">
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#beneficios">Beneficios</a></li>
@@ -23,7 +28,7 @@
                     <li><a href="#alot">Nosotros</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
-                <button class="btn btn-primary" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
+                <button class="btn btn-primary nav-cta" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
             </div>
         </nav>
     </header>
