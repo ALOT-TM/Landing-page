@@ -16,14 +16,22 @@
                 <span class="logo-subtext">by ALOT</span>
             </div>
             <div class="nav-actions">
-                <ul class="nav-links">
+                <ul class="nav-links" id="primary-navigation">
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#beneficios">Beneficios</a></li>
                     <li><a href="#caracteristicas">Caracteristicas</a></li>
                     <li><a href="#alot">Nosotros</a></li>
                     <li><a href="#contacto">Contacto</a></li>
+                    <li class="nav-cta-item">
+                        <button class="btn btn-primary nav-cta-mobile" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
+                    </li>
                 </ul>
-                <button class="btn btn-primary" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
+            </div>
+            <div class="nav-controls">
+                <button class="btn btn-primary nav-cta" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
+                <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="nav-toggle-icon" aria-hidden="true"></span>
+                </button>
             </div>
         </nav>
     </header>
@@ -402,34 +410,34 @@
             </p>
             <div class="team-grid">
                 <div class="team-card">
-                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                    <img src="./assets/borja.jpg"
                          alt="Integrante 1"
                          class="team-photo">
-                    <p class="team-name">Lorem ipsum</p>
+                    <p class="team-name">Gabriel Borja</p>
                 </div>
                 <div class="team-card">
-                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                    <img src="./assets/bellido.png"
                          alt="Integrante 2"
                          class="team-photo">
-                    <p class="team-name">Lorem ipsum</p>
+                    <p class="team-name">Raul Bellido</p>
                 </div>
                 <div class="team-card">
-                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                    <img src="./assets/cardenas.jpg"
                          alt="Integrante 3"
                          class="team-photo">
-                    <p class="team-name">Lorem ipsum</p>
+                    <p class="team-name">Santiago Cardenas</p>
                 </div>
                 <div class="team-card">
-                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                    <img src="./assets/suarez.jpg"
                          alt="Integrante 4"
                          class="team-photo">
-                    <p class="team-name">Lorem ipsum</p>
+                    <p class="team-name">Santiago Suárez</p>
                 </div>
                 <div class="team-card">
-                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                    <img src="./assets/dinklange.jpg"
                          alt="Integrante 5"
                          class="team-photo">
-                    <p class="team-name">Lorem ipsum</p>
+                    <p class="team-name">Sandro Dinklange</p>
                 </div>
             </div>
         </div>
