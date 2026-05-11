@@ -15,11 +15,20 @@
                 <span class="logo-text">Fluxus</span>
                 <span class="logo-subtext">by ALOT</span>
             </div>
-            <button class="btn btn-primary" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
+            <div class="nav-actions">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#caracteristicas">Caracteristicas</a></li>
+                    <li><a href="#alot">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <button class="btn btn-primary" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
+            </div>
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="inicio">
         <div class="container hero-grid">
             <div class="hero-content">
                 <div class="hero-badge">Plataforma digital</div>
@@ -48,7 +57,7 @@
         </div>
     </section>
 
-    <section class="section bg-white">
+    <section class="section bg-white" id="problema">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">El Problema que Resolvemos</h2>
@@ -109,7 +118,7 @@
         </div>
     </section>
 
-    <section class="section bg-gray">
+    <section class="section bg-gray" id="beneficios">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Beneficios Clave</h2>
@@ -126,7 +135,7 @@
                     <h3 class="card-title-large">Reducción de Costos</h3>
                     <p class="card-text">
                         Optimiza la estructura de costos logísticos al disminuir los gastos de tercerización de transporte para la disposición de residuos sólidos
-                    </p>
+                    </p>d de CSS scroll-behavior: smooth."
                 </div>
 
                 <div class="card card-benefit">
@@ -196,7 +205,7 @@
         </div>
     </section>
 
-    <section class="section bg-white">
+    <section class="section bg-white" id="caracteristicas">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Características Principales</h2>
@@ -289,7 +298,7 @@
         </div>
     </section>
 
-    <section class="section bg-dark">
+    <section class="section bg-dark" id="ayudamos">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-white">¿A quiénes ayudamos?</h2>
@@ -349,7 +358,7 @@
         </div>
     </section>
 
-    <section class="section bg-white">
+    <section class="section bg-white" id="alot">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Sobre ALOT</h2>
@@ -382,7 +391,7 @@
         </div>
     </section>
 
-    <section class="section bg-gray">
+    <section class="section bg-gray" id="nosotros">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Sobre nosotros</h2>
@@ -459,7 +468,7 @@
         </div>
     </section>
 
-    <section class="section bg-white">
+    <section class="section bg-white" id="producto">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Sobre el producto</h2>
@@ -541,7 +550,7 @@
         </div>
     </section>
 
-    <section class="cta">
+    <section class="cta" id="contacto">
         <div class="container cta-content">
             <h2 class="cta-title">Comienza a transformar tu operación hoy</h2>
             <p class="cta-description">
