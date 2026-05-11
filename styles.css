@@ -368,8 +368,7 @@ body {
 }
 
 .image-rounded {
-    border-radius: 1rem;
-    box-shadow: var(--shadow-2xl);
+
     width: 100%;
     height: auto;
 }
@@ -712,11 +711,11 @@ body {
     line-height: 1.7;
 }
 
-.split-image img {
+.split-image img {    
     width: 100%;
     height: auto;
-    border-radius: 1rem;
-    box-shadow: var(--shadow-xl);
+
+    
 }
 
 .team-text {
