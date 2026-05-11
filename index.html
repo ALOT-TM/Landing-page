@@ -15,11 +15,25 @@
                 <span class="logo-text">Fluxus</span>
                 <span class="logo-subtext">by ALOT</span>
             </div>
-            <button class="btn btn-primary" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+            </button>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#caracteristicas">Caracteristicas</a></li>
+                    <li><a href="#alot">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <button class="btn btn-primary nav-cta" onclick="handleCTAClick('header-demo')">Solicitar Demo</button>
+            </div>
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="inicio">
         <div class="container hero-grid">
             <div class="hero-content">
                 <div class="hero-badge">Plataforma digital</div>
@@ -48,7 +62,7 @@
         </div>
     </section>
 
-    <section class="section bg-white">
+    <section class="section bg-white" id="problema">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">El Problema que Resolvemos</h2>
@@ -109,7 +123,7 @@
         </div>
     </section>
 
-    <section class="section bg-gray">
+    <section class="section bg-gray" id="beneficios">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Beneficios Clave</h2>
@@ -126,7 +140,7 @@
                     <h3 class="card-title-large">Reducción de Costos</h3>
                     <p class="card-text">
                         Optimiza la estructura de costos logísticos al disminuir los gastos de tercerización de transporte para la disposición de residuos sólidos
-                    </p>
+                    </p>d de CSS scroll-behavior: smooth."
                 </div>
 
                 <div class="card card-benefit">
@@ -196,7 +210,7 @@
         </div>
     </section>
 
-    <section class="section bg-white">
+    <section class="section bg-white" id="caracteristicas">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Características Principales</h2>
@@ -289,7 +303,7 @@
         </div>
     </section>
 
-    <section class="section bg-dark">
+    <section class="section bg-dark" id="ayudamos">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-white">¿A quiénes ayudamos?</h2>
@@ -349,7 +363,7 @@
         </div>
     </section>
 
-    <section class="section bg-white">
+    <section class="section bg-white" id="alot">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Sobre ALOT</h2>
@@ -382,7 +396,133 @@
         </div>
     </section>
 
-    <section class="cta">
+    <section class="section bg-gray" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro equipo</h2>
+            </div>
+            <p class="team-text">
+                Somos estudiantes universitarios de la Universidad Peruana de Ciencias Aplicadas,
+                hemos desarrollado esta plataforma digital como parte de nuestro proyecto de fin de carrera para la especializacion en Desarrollo de Software. Nuestra pasion por la tecnologia y el impacto social nos ha llevado a crear una solucion innovadora que aborda un problema real en la industria del retail, con el objetivo de generar un cambio positivo en la sociedad.
+            </p>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                         alt="Integrante 1"
+                         class="team-photo">
+                    <p class="team-name">Lorem ipsum</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                         alt="Integrante 2"
+                         class="team-photo">
+                    <p class="team-name">Lorem ipsum</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                         alt="Integrante 3"
+                         class="team-photo">
+                    <p class="team-name">Lorem ipsum</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                         alt="Integrante 4"
+                         class="team-photo">
+                    <p class="team-name">Lorem ipsum</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400"
+                         alt="Integrante 5"
+                         class="team-photo">
+                    <p class="team-name">Lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-white" id="producto">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre el producto</h2>
+            </div>
+
+            <div class="split-grid reverse">
+                <div class="split-image">
+                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=900"
+                         alt="Panel del producto"
+                         class="image-rounded">
+                </div>
+                <div class="split-content">
+                    <p class="split-text">
+                        <span class="b">Fluxus</span> es una solución integral diseñada para transformar la gestión de inventarios en el sector retail, enfocándose en la reducción del desperdicio y la optimización de recursos. Con una interfaz intuitiva y herramientas avanzadas, nuestra aplicación permite a las empresas registrar, clasificar y gestionar productos retirados del inventario de manera eficiente, facilitando la conexión con instituciones sociales beneficiarias. Además, ofrece trazabilidad total, reportes de sostenibilidad y beneficios fiscales, convirtiéndola en una herramienta indispensable para cualquier empresa comprometida con la responsabilidad social y la economía circular.
+                    </p>
+                    <p class="split-text b">Ofrecemos una aplicación con:</p>
+
+
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <div class="info-icon icon-emerald">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="info-title">Implementacion rapida</h3>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon icon-purple">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="4" y="4" width="16" height="16" rx="2"/>
+                                    <rect x="9" y="9" width="6" height="6"/>
+                                    <path d="M9 1v3"/>
+                                    <path d="M15 1v3"/>
+                                    <path d="M9 20v3"/>
+                                    <path d="M15 20v3"/>
+                                    <path d="M1 9h3"/>
+                                    <path d="M1 15h3"/>
+                                    <path d="M20 9h3"/>
+                                    <path d="M20 15h3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="info-title">Automatizacion inteligente</h3>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon icon-blue">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="16" rx="2"/>
+                                    <path d="M9 4v16"/>
+                                    <path d="M9 10h12"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="info-title">Panel unificado</h3>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon icon-rose">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2l7 4v6c0 5-3.5 9.5-7 10-3.5-.5-7-5-7-10V6l7-4z"/>
+                                    <rect x="9" y="11" width="6" height="5" rx="1"/>
+                                    <path d="M10 11V9a2 2 0 0 1 4 0v2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="info-title">Escala segura</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="contacto">
         <div class="container cta-content">
             <h2 class="cta-title">Comienza a transformar tu operación hoy</h2>
             <p class="cta-description">
